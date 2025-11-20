@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="product-detail">
+            <div class="product-detail-image">
+                <img src="{{ .Params.image }}" alt="{{ .Title }}" />
+            </div>
+
+            <div class="product-detail-info">
+                <h1>{{ .Title }}</h1>
+                <p class="category">Category: {{ .Params.category }}</p>
+
+                <div class="price-rating">
+                    <span class="price-tag">${{ .Params.price }}</span>
+                    <div class="rating-info">
+                        <span class="stars">★ {{ .Params.rating }}/5</span>
+                        <span class="reviews">{{ .Params.reviews }} reviews</span>
+                    </div>
+                </div>
+
+                <div class="description">
+                    <h2>Overview</h2>
+                    {{ .Content | safeHTML }}
+                </div>
+
+                <div class="cta">
+                    <a href="{{ .Params.affiliate_link }}" class="btn-primary" target="_blank">
+                        Buy on Amazon
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <a href="{{ .Site.BaseURL }}" class="btn-back">← Back to Products</a>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; {{ now.Year }} {{ .Site.Params.author }}. All rights reserved.</p>
+            <p>This site uses affiliate links. We may earn a commission if you make a purchase.</p>
+        </div>
+    </footer>
+</body>
+</html>
