@@ -1,12 +1,12 @@
 ---
 title: "Wireless Bluetooth Earbuds"
-date: 2025-11-20T20:22:36.769822
+date: 2025-11-20T20:42:34.336027
 draft: false
 category: "Electronics"
 price: "49.99"
 rating: 4.6
 reviews: 2150
-image: "https://m.media-amazon.com/images/I/41K5j4p3TaL.jpg"
+image: "https://m.media-amazon.com/images/I/71ASBv8dJ3L._SX425_.jpg"
 amazon_url: "https://amazon.com/bluetooth-earbuds"
 affiliate_link: "https://amazon.com/bluetooth-earbuds?tag=YOUR_AFFILIATE_TAG"
 ---

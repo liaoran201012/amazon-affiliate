@@ -1,12 +1,12 @@
 ---
 title: "Desk Lamp LED"
-date: 2025-11-20T20:22:36.769822
+date: 2025-11-20T20:42:34.336027
 draft: false
 category: "Home"
 price: "35.99"
 rating: 4.5
 reviews: 890
-image: "https://m.media-amazon.com/images/I/41Y8ZYvhrtL.jpg"
+image: "https://m.media-amazon.com/images/I/81plxi8b04L._SX522_.jpg"
 amazon_url: "https://amazon.com/desk-lamp-led"
 affiliate_link: "https://amazon.com/desk-lamp-led?tag=YOUR_AFFILIATE_TAG"
 ---
