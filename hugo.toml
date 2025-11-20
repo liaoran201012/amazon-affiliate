@@ -1,8 +1,0 @@
-baseURL = '/'
-languageCode = 'en-us'
-title = 'Amazon Affiliate Store'
-theme = 'affiliate-theme'
-
-[params]
-description = 'Find the best products on Amazon'
-author = 'Your Name'
